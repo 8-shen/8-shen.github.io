@@ -102,18 +102,18 @@
 
 
 
-  <meta name="description" content="不忘初心 方得始终">
+  <meta name="description" content="&amp;lt;!DOCTYPE html&amp;gt; 404页未找到html,body {    margin:0;    padding:0;}canvas {    display:block;}var canvas = document.createElement(‘canvas’);      var height = canvas.height = window.innerHeight;">
 <meta name="keywords" content="前端">
 <meta property="og:type" content="website">
-<meta property="og:title" content="关于我">
-<meta property="og:url" content="http://8-shen.com/about/index.html">
+<meta property="og:title" content="页面未找到">
+<meta property="og:url" content="http://8-shen.com/404.html">
 <meta property="og:site_name" content="巴神的博客">
-<meta property="og:description" content="不忘初心 方得始终">
+<meta property="og:description" content="&amp;lt;!DOCTYPE html&amp;gt; 404页未找到html,body {    margin:0;    padding:0;}canvas {    display:block;}var canvas = document.createElement(‘canvas’);      var height = canvas.height = window.innerHeight;">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-09-17T07:09:36.760Z">
+<meta property="og:updated_time" content="2018-09-17T08:03:11.352Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于我">
-<meta name="twitter:description" content="不忘初心 方得始终">
+<meta name="twitter:title" content="页面未找到">
+<meta name="twitter:description" content="&amp;lt;!DOCTYPE html&amp;gt; 404页未找到html,body {    margin:0;    padding:0;}canvas {    display:block;}var canvas = document.createElement(‘canvas’);      var height = canvas.height = window.innerHeight;">
 
 
 
@@ -122,7 +122,7 @@
 
 
 
-  <link rel="canonical" href="http://8-shen.com/about/"/>
+  <link rel="canonical" href="http://8-shen.com/404.html"/>
 
 
 
@@ -132,7 +132,7 @@
   };
 </script>
 
-  <title>关于我 | 巴神的博客</title>
+  <title>页面未找到 | 巴神的博客</title>
   
 
 
@@ -170,7 +170,7 @@
   </style>
 </noscript>
 
-<link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
+</head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
@@ -255,7 +255,7 @@
         
         
           
-          <li class="menu-item menu-item-关于我 menu-item-active">
+          <li class="menu-item menu-item-关于我">
     <a href="/about/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-user-o"></i> <br />关于我</a>
   </li>
@@ -321,7 +321,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">关于我</h1>
+<h1 class="post-title" itemprop="name headline">页面未找到</h1>
 
 <div class="post-meta">
   
@@ -339,7 +339,9 @@
       <div class="post-body">
         
         
-          
+          <p>&lt;!DOCTYPE html&gt;<br><!-- saved from url=(0062)http://www.17sucai.com/preview/952947/2018-01-02/404/demo.html --></p>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><br><br><title>404页未找到</title><br><br><style><br>html,body {<br>    margin:0;<br>    padding:0;<br>}<br>canvas {<br>    display:block;<br>}<br></style><br><link rel="stylesheet" href="/css/prism.css" type="text/css"></head><br><body><br><br><div></div><br><br><script><br>var canvas = document.createElement(‘canvas’);<br>      var height = canvas.height = window.innerHeight;<br>      var width = canvas.width = window.innerWidth;<br>      var ctx = canvas.getContext(‘2d’);<br>      document.body.appendChild(canvas);<br><br>      function random(min,max)<br>      {<br>          return Math.random()<em>(max-min+1)+min;<br>      }<br><br>      function range_map(value,in_min, in_max, out_min, out_max) {<br>        return (value - in_min) </em> (out_max - out_min) / (in_max - in_min) + out_min;<br>      }<br><br>      var word_arr = [];<br>      var txt_min_size = 5;<br>      var txt_max_size = 25;<br>      var keypress = false;<br>      var acclerate = 2;<br>      for (var i = 0; i &lt; 25; i++) {<br>        word_arr.push({<br>          x : random(0,width),<br>          y : random(0,height),<br>          text : ‘404’,<br>          size : random(txt_min_size,txt_max_size)<br>        });<br><br>        word_arr.push({<br>          x : random(0,width),<br>          y : random(0,height),<br>          text : ‘page’,<br>          size : random(txt_min_size,txt_max_size)<br>        });<br><br><br>        word_arr.push({<br>          x : random(0,width),<br>          y : random(0,height),<br>          text : ‘not found’,<br>          size : random(txt_min_size,txt_max_size)<br>        });<br><br>        word_arr.push({<br>          x : random(0,width),<br>          y : random(0,height),<br>          text : ‘404’,<br>          size : Math.floor(random(txt_min_size,txt_max_size))<br>        });<br>      }<br><br>      function render()<br>      {<br>        ctx.fillStyle = “rgba(0,0,0,1)”;<br>        ctx.fillRect(0,0,width,height);<br><br>        ctx.fillStyle = “#fff”;<br>        for (var i = 0; i &lt; word_arr.length; i++) {<br>          ctx.font = word_arr[i].size+”px sans-serif”;<br>          var w = ctx.measureText(word_arr[i].text);<br>          ctx.fillText(word_arr[i].text,word_arr[i].x,word_arr[i].y);<br><br>          if(keypress)<br>          {<br>            word_arr[i].x += range_map(word_arr[i].size,txt_min_size,txt_max_size,2,4) <em> acclerate;<br>          }<br>          else {<br>            word_arr[i].x += range_map(word_arr[i].size,txt_min_size,txt_max_size,2,3);<br>          }<br><br>          if(word_arr[i].x &gt;= width)<br>          {<br>            word_arr[i].x = -w.width</em>2;<br>            word_arr[i].y = random(0,height);<br>            word_arr[i].size =  Math.floor(random(txt_min_size,txt_max_size));<br><br>          }<br>        }<br><br>        ctx.fill();<br><br>        requestAnimationFrame(render);<br>      }<br><br>      render();<br><br>      window.addEventListener(‘keydown’,function(){<br>        keypress = true;<br>      },true);<br>      window.addEventListener(‘keyup’,function(){<br>        keypress = false;<br>      },true);</script><canvas height="943" width="1920"></canvas><br><br><br><br></body></html>
+
         
       </div>
       
