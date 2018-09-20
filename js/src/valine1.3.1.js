@@ -273,7 +273,8 @@
         }
       },
       v = {
-        cdn: "https://gravatar.loli.net/avatar/",
+        cdn: "https://cdn.v2ex.com",
+        //cdn: "https://gravatar.loli.net/avatar/",
         ds: ["mp", "identicon", "monsterid", "wavatar", "robohash", "retro", ""],
         params: "",
         hide: !1
