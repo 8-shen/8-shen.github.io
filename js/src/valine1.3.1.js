@@ -273,7 +273,7 @@
         }
       },
       v = {
-        cdn: "gravatar.ihuan.me",
+        cdn: "http://gravatar.ihuan.me",
         //cdn: "https://gravatar.loli.net/avatar/",
         ds: ["mp", "identicon", "monsterid", "wavatar", "robohash", "retro", ""],
         params: "",
