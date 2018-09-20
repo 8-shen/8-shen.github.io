@@ -273,7 +273,7 @@
         }
       },
       v = {
-        cdn: "//gravatar.duoshuo.com",
+        cdn: "http://avacdn.qiniudn.com ",
         //cdn: "https://gravatar.loli.net/avatar/",
         ds: ["mp", "identicon", "monsterid", "wavatar", "robohash", "retro", ""],
         params: "",
